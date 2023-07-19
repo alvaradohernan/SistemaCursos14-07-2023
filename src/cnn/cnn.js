@@ -1,6 +1,6 @@
 import { Sequelize } from "sequelize";
 
-export const sequelize = new Sequelize('postgres://postgres:ot6j1RE8PkyWIzNDmvpx@containers-us-west-149.railway.app:7872/railway');
+export const sequelize = new Sequelize('postgres://usuario:email:puerto/basededatos');
 
 
 try {
